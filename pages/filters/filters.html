@@ -1,0 +1,41 @@
+
+<ion-navbar *navbar primary>
+  <ion-title>
+    Filter
+  </ion-title>
+</ion-navbar>
+<ion-content padding class="filters animated bounceInUp">
+
+ <p>I want to see :</p>
+  <ion-segment primary>
+    <ion-segment-button value="Both">
+      Both
+    </ion-segment-button>
+    <ion-segment-button value="Women">
+      Women
+    </ion-segment-button>
+    <ion-segment-button value="Men">
+      Men
+    </ion-segment-button>
+  </ion-segment>
+
+	<ion-item class="filteritem">
+	  <ion-label > Located In:</ion-label>
+	  <ion-toggle checked="false" primary></ion-toggle>
+	</ion-item>
+
+ <p>Between the ages of :</p>
+
+<ion-item>
+  <ion-range min="1000" max="2000" step="100" snaps="true" [(ngModel)]="warmth" primary>
+    <ion-icon range-left small primary >18+</ion-icon>
+    <ion-icon range-right small primary >40+</ion-icon>
+  </ion-range>
+</ion-item>
+
+
+
+
+
+
+</ion-content>

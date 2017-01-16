@@ -1,0 +1,35 @@
+.me
+{
+  background:$backgroundimage;
+}
+
+.me .me_inner
+{
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.me .me_inner img
+{
+  border-radius:$circle;
+}
+
+.me .pinicon
+{
+    color:color($colors,secondary);
+}
+
+.me .cityname
+{
+    color:color($colors,secondary);
+}
+
+.me .me_inner h2,.me .me_inner p
+{
+    color:color($colors,secondary);
+}
+
+.me ion-col ion-col
+{
+  float:left;
+}
+

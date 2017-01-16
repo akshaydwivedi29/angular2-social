@@ -1,0 +1,31 @@
+<ion-navbar *navbar primary>
+    <ion-title>Dating App</ion-title>
+</ion-navbar>
+
+<ion-content padding class="meet">
+    <ion-grid>
+        <ion-row *ngIf="users.length">
+          <!--<ion-col width-33 (click)="mepage()" class="animated flipInX">
+    <img src="img/profile1.png">
+    <span class="distance">0000 km </span><span>Warner <ion-icon primary name="radio-button-on"></ion-icon></span>
+</ion-col>-->
+            <ion-col width-33 *ngFor="let user of users"><img src="{{user.image_path}}"><span class="distance">{{user.location}} </span> <span>{{user.name}}, {{user.age}}</span></ion-col>
+            <!--<ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro2.jpg"><span class="distance">340 km </span> <span>Advik <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro3.jpg"><span class="distance">5 km </span><span>Grace <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro4.jpg"><span class="distance">8 km </span> <span>Harper <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro5.jpg"><span class="distance">345 km </span> <span>Watson <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro6.jpg"><span class="distance">24 km </span><span>Aaliyah <ion-icon danger name="radio-button-off"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro7.jpg"><span class="distance">67 km </span> <span> Johnson <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro8.jpg"><span class="distance">6 km </span> <span>Serina <ion-icon danger name="radio-button-off"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro9.jpg"><span class="distance">567 km </span><span>Johnson <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro10.jpg"><span class="distance">4 km </span> <span>Sania <ion-icon danger name="radio-button-off"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro11.jpg"><span class="distance">534 km </span> <span>Watson <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro12.jpg"><span class="distance">46 km </span> <span>Juli <ion-icon primary name="radio-button-on"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro13.jpg"><span class="distance">88 km </span> <span>Kick <ion-icon danger name="radio-button-off"></ion-icon></span></ion-col>
+            <ion-col width-33 (click)="mepage()" class="animated flipInX"><img src="img/pro14.jpg"><span class="distance">890 km </span> <span>kaif <ion-icon danger name="radio-button-off"></ion-icon></span></ion-col>-->
+        </ion-row>
+    </ion-grid>
+    <!--   <h2>Welcome to Facebook Match !</h2>
+  <button primary (click)="presentAlert()">Alert</button>
+  <button primary (click)="actionSheet()">ActionSheet</button> -->
+</ion-content>

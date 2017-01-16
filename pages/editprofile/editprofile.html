@@ -1,0 +1,96 @@
+<ion-navbar *navbar primary>
+  <ion-title>Edit Profile</ion-title>
+</ion-navbar>
+
+<ion-content class="editprofile animated bounceInUp">
+<div padding>
+  <ion-segment [(ngModel)]="profileModal" primary>
+    <ion-segment-button value="Basicinfo">
+      Basic Info
+    </ion-segment-button>
+    <ion-segment-button value="aboutme">
+      About Me
+    </ion-segment-button>
+    <ion-segment-button value="details">
+      Details
+    </ion-segment-button>
+  </ion-segment>
+</div>
+
+<div [ngSwitch]="profileModal" class="edit_inner">
+  <ion-list *ngSwitchWhen="'Basicinfo'">
+  <ion-item>
+    <ion-label>First Name</ion-label>
+    <ion-input type="text" value="" ></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label>Last Name</ion-label>
+    <ion-input type="text" value="" ></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label>Location</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+  </ion-list>
+
+  <ion-list *ngSwitchWhen="'aboutme'">
+    <ion-item>
+      <ion-textarea rows="5" placeholder="Type Here..." value=""></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-list *ngSwitchWhen="'details'">
+  <ion-item>
+    <ion-label>Orientation</ion-label>
+    <ion-select [(ngModel)]="Orientation">
+      <ion-option value="nes">Straight</ion-option>
+      <ion-option value="n64">Gay</ion-option>
+      <ion-option value="ps">Bisexual</ion-option>
+    </ion-select>
+  </ion-item>
+
+    <ion-item>
+    <ion-label>Relationship Status</ion-label>
+    <ion-select [(ngModel)]="RelationshipStatus">
+      <ion-option value="nes">Single</ion-option>
+      <ion-option value="n64">Married</ion-option>
+      <ion-option value="ps">Complicated</ion-option>
+      <ion-option value="genesis">Taken</ion-option>
+      <ion-option value="saturn">Engaged</ion-option>
+    </ion-select>
+  </ion-item>
+
+    <ion-item>
+    <ion-label>Height</ion-label>
+    <ion-select [(ngModel)]="Height">
+      <ion-option value="nes">165 cm</ion-option>
+      <ion-option value="n64">166 cm</ion-option>
+      <ion-option value="ps">167 cm</ion-option>
+      <ion-option value="genesis">168 cm</ion-option>
+      <ion-option value="saturn">169 cm</ion-option>
+      <ion-option value="snes">170 cm</ion-option>
+    </ion-select>
+  </ion-item>
+
+    <ion-item>
+    <ion-label>Body type</ion-label>
+    <ion-select [(ngModel)]="Bodytype">
+      <ion-option value="nes">Slender</ion-option>
+      <ion-option value="n64">Athletic and toned</ion-option>
+      <ion-option value="ps">About average</ion-option>
+      <ion-option value="genesis">A few extra pound</ion-option>
+      <ion-option value="saturn">Stocky</ion-option>
+    </ion-select>
+  </ion-item>
+
+      <ion-item>
+    <ion-label>Smoking</ion-label>
+    <ion-select [(ngModel)]="Smoking">
+      <ion-option value="nes">No Way</ion-option>
+      <ion-option value="n64">Occasionally</ion-option>
+      <ion-option value="ps">Daily</ion-option>
+    </ion-select>
+  </ion-item>
+  </ion-list>
+</div>
+</ion-content>

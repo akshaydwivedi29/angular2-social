@@ -1,0 +1,67 @@
+<ion-navbar *navbar primary>
+    <ion-title>Me</ion-title>
+</ion-navbar>
+
+<ion-content class="me animated bounceInUp" header-shrink scroll-event-interval="5">
+    <ion-item class="me_inner">
+        <ion-col item-left width-25 (click)="actionSheet()">
+            <img src="img/profile1.png">
+        </ion-col>
+        <ion-col item-left width-50>
+            <h2>Profile1</h2>
+            <p>26, Male America</p>
+            <ion-icon name="pin" class="pinicon"></ion-icon> <span class="cityname">san francisco</span>
+        </ion-col>
+    </ion-item>
+
+    <ion-col>
+        <ion-col width-50>
+            <button full favorite (click)="actionSheet()">
+                <div>Add Photo</div>
+            </button>
+        </ion-col>
+
+        <ion-col width-50 (click)="editpage()">
+            <button full danger>
+                <div>Edit Profile</div>
+            </button>
+        </ion-col>
+    </ion-col>
+
+    <ion-card>
+        <ion-list>
+            <button ion-item (click)="notificationpage()">
+                <ion-icon name="notifications" item-left></ion-icon>
+                Notifications
+            </button>
+
+            <button ion-item (click)="viewpage()">
+                <ion-icon name="eye" item-left></ion-icon>
+                Views
+            </button>
+
+            <button ion-item (click)="friendspage()">
+                <ion-icon name="people" item-left></ion-icon>
+                Friends
+            </button>
+
+            <button ion-item (click)="matchespage()">
+                <ion-icon name="heart" item-left></ion-icon>
+                Matches
+            </button>
+
+            <button ion-item (click)="filterspage()">
+                <ion-icon name="funnel" item-left></ion-icon>
+                Filters
+            </button>
+
+            <button ion-item>
+                <ion-icon name="log-out" item-left></ion-icon>
+                Logout
+            </button>
+
+        </ion-list>
+    </ion-card>
+
+
+</ion-content>

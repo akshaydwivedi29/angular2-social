@@ -1,0 +1,123 @@
+.profile
+{
+  background:$backgroundimage;
+}
+
+.profile_outer
+{
+       background: rgb(26, 113, 52);
+}
+
+.smiley
+{
+    height: 70px;
+    overflow: auto;
+}
+.smiley ion-col
+{
+    float: left !important;
+    text-align: center;
+    font-size: 22px;
+        padding-top: 0;
+    padding-bottom: 0;
+}
+
+.profile_outer ion-col img
+{
+  border-radius:$circle;
+}
+
+.profile_outer .pinicon
+{
+    color:color($colors,secondary);
+}
+
+.profile_outer h2,.profile_outer p,.profile_outer span
+{
+    color:color($colors,secondary);
+}
+
+.profile .profile_inner ion-col
+{
+  padding:10px;
+   float:left; 
+   background:color($colors,primary);
+   border-radius: 5px;
+}
+
+.profile .profile_inner ion-avatar
+{
+  margin:0;
+}
+
+.profile .profile_inner ion-avatar img
+{
+  float:left; 
+  margin-right:10px;
+}
+
+.profile_inner_name
+{
+  display: inherit; 
+  padding: 10px; 
+    color:color($colors,secondary);
+}
+
+.profile_inner_chat
+{
+  float:right;
+}
+
+.profile_bottom width-67
+{
+  float:left;
+}
+
+.profile_bottom width-10
+{
+  float:left;
+   line-height: 37px;
+}
+
+.profile_smiley
+{
+  min-height: 70px;
+}
+
+.profile_bottom ion-col
+{
+  float:left;
+}
+
+.profile_bottom
+{
+  position:fixed;
+  bottom: 0;
+}
+
+.bottom_gap
+{
+  margin-bottom:75px;
+}
+
+.prochat
+{
+  margin-bottom:0;
+  border:none;
+  position:relative;
+}
+
+.photos
+{
+    background: transparent;
+    border: none;
+    border-bottom:none!important;
+    border-top:none!important;
+}
+
+.profile_bottom ion-col[width-10]
+{
+  margin-top:5px;
+  font-size: 22px;
+}
+

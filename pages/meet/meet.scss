@@ -1,0 +1,193 @@
+.action-sheets-basic-page {
+  .ion-md-share {
+    color: #ED4248;
+  }
+  .ion-md-arrow-dropright-circle {
+    color: #508AE4;
+  }
+  .ion-md-heart-outline {
+    color: #31D55F;
+  }
+  .action-sheet-cancel ion-icon,
+  .action-sheet-destructive ion-icon {
+    color: #757575;
+  }
+
+}
+
+.distance{
+    border-radius: 6px;
+    border: solid 1px #8e8980;
+    padding: 1px 6px;
+    margin: 1px;
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    color:color($colors,secondary);
+    background: rgba(255, 255, 255, 0.4);
+    }
+
+
+
+ion-row
+{
+  float:left;
+  display: initial!important;
+}
+  .meet img
+  {
+  border-radius:$circle;
+  width:88px;
+  height:88px;
+  }
+
+
+
+ion-col[width-33], ion-col[width-34]
+  {
+  float:left!important;
+  text-align:center!important;
+  }
+
+  ion-navbar-section {
+    min-height: 51px;
+}
+
+.online
+{
+    position: absolute;
+    bottom: 8px;
+    left: 45px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modal
+{
+  background:color($colors,secondary);
+}
+
+.modal textarea
+{
+  margin:2%;
+  width:96%;
+  float:left;
+  background:color($colors,light);
+  border:none;
+  resize:none;
+  padding:15px;
+}
+
+td-cards {
+  display: block;
+}
+
+/*
+td-card.card-0 {
+  -webkit-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+  top: 0px;
+  z-index: 10;
+}
+td-card.card-1 {
+  -webkit-transform: translate3d(0, 4px, 0);
+  transform: translate3d(0, 4px, 0);
+  z-index: 9;
+}
+td-card.card-2 {
+  -webkit-transform: translate3d(0, 8px, 0);
+  transform: translate3d(0, 8px, 0);
+  z-index: 8;
+}
+*/
+
+td-card .image {
+  position: relative;
+}
+
+td-card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.yes-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  color: rgb(111, 250, 111);
+  opacity: 0;
+}
+.no-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: rgb(255, 115, 115);
+  opacity: 0;
+}
+
+.fade {
+  -webkit-transition: 0.2s opacity linear;
+  transition: 0.2s opacity linear;
+  opacity: 0;
+}
+
+
+
+.toolbar-background
+{
+    border-color: color($colors,primary);
+    background: color($colors,primary);
+
+}
+
+.toolbar-content p
+{
+      text-align:center;
+    color:color($colors,secondary);
+    width:100%;
+}
+
+.toolbar-background
+{
+    border-color: color($colors,primary);
+    }
+
+.photos ion-col
+{
+  float:left;
+}
+
+.leftsidearrow
+{
+  font-size:14px; 
+  color:#ccc;
+}
+
+.leftsidearrowicon
+{
+  font-size:20px; 
+  color:color($colors,light);
+  float:right;
+}
+
+
+
+.meet
+{
+  background:$backgroundimage;
+}
+
+
+.meet ion-col span
+{
+  color:color($colors,secondary);
+}
+
+
+
+
+
+
+

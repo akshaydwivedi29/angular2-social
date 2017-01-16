@@ -1,0 +1,271 @@
+
+
+<ion-navbar *navbar primary>
+  <ion-title>
+    Chat
+  </ion-title>
+</ion-navbar>
+<ion-toolbar>
+  <ion-title>Send To...</ion-title>
+</ion-toolbar>
+
+<ion-content class="chatpage animated bounceInUp">
+<ion-grid>
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth1" >
+    <ion-button >
+        <ion-avatar item-left >
+          <img src="img/profile1.png" (click)="profilepage()">
+          <span class="chatpagewidthspan">Warner :</span> 
+          <span class="chatpagewidthspan1" >........., Hi. how are you. .... .. ..?</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid >
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth">
+    <ion-button >
+        <ion-avatar item-right>
+          <img src="img/pro1.jpg" (click)="profilepage()">
+          <span class="chatpagewidthspan">Olivia :</span> 
+          <span class="chatpagewidthspan1" >Fn....u hw?</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth1">
+    <ion-button >
+        <ion-avatar item-left>
+          <img src="img/profile1.png" (click)="profilepage()">
+          <span class="chatpagewidthspan">Warner :</span> 
+          <span class="chatpagewidthspan1" >Well..............:)</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth">
+    <ion-button >
+        <ion-avatar item-left >
+          <img src="img/pro1.jpg" (click)="profilepage()">
+          <span class="chatpagewidthspan">Olivia :</span> 
+          <span class="chatpagewidthspan1" >Whats up........?</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid >
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth1">
+    <ion-button >
+        <ion-avatar item-right>
+          <img src="img/profile1.png" (click)="profilepage()">
+          <span class="chatpagewidthspan">Warner :</span> 
+          <span class="chatpagewidthspan1" >........., Going good....</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row >
+    <ion-col width-75 class="chatpagewidth">
+    <ion-button >
+        <ion-avatar item-left >
+          <img src="img/profile1.png" (click)="profilepage()">
+          <span class="chatpagewidthspan">Olivia :</span> 
+          <span class="chatpagewidthspan1" >Okay...fine .........,</span>
+        </ion-avatar>
+    </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
+
+
+<ion-toolbar class="bottom_type" position="bottom" light>
+<ion-col width-75 class="bottom_type_first"> 
+  <ion-input type="text" value="" placeholder="Type Something...."></ion-input>
+</ion-col>
+<ion-col width-10 class="bottom_type_second">
+  <ion-buttons>
+    <button primary>
+      <ion-icon name="camera"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-col>
+<!-- <ion-col width-10 style="float:left; line-height: 37px;">
+  <ion-buttons>
+    <button>
+      😄
+    </button>
+  </ion-buttons>
+</ion-col> -->
+
+<ion-col width-10 class="bottom_type_second">
+  <ion-buttons>
+    <button primary>
+      <ion-icon name="send"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-col>
+</ion-toolbar>
+
+
+<!-- <ion-toolbar position="bottom" light style="min-height: 70px;"> -->
+<!-- <ion-row class="smiley">
+      
+          <ion-col width-10 ng-click="addsmile('😄')">😄</ion-col>
+          <ion-col width-10 ng-click="addsmile('😃')">😃</ion-col>
+          <ion-col width-10 ng-click="addsmile('😀')">😀</ion-col>
+          <ion-col width-10 ng-click="addsmile('😊')">😊</ion-col>
+          <ion-col width-10 ng-click="addsmile('😉')">😉</ion-col>
+          <ion-col width-10 ng-click="addsmile('😍')">😍</ion-col>
+          <ion-col width-10 ng-click="addsmile('😘')">😘</ion-col>
+          <ion-col width-10 ng-click="addsmile('😗')">😗</ion-col>
+          <ion-col width-10 ng-click="addsmile('😙')">😙</ion-col>
+          <ion-col width-10 ng-click="addsmile('😜')">😜</ion-col>
+          <ion-col width-10 ng-click="addsmile('😝')">😝</ion-col>
+          <ion-col width-10 ng-click="addsmile('😛')">😛</ion-col>
+          <ion-col width-10 ng-click="addsmile('😳')">😳</ion-col>
+          <ion-col width-10 ng-click="addsmile('😁')">😁</ion-col>
+          <ion-col width-10 ng-click="addsmile('😔')">😔</ion-col>
+          <ion-col width-10 ng-click="addsmile('😌')">😌</ion-col>
+          <ion-col width-10 ng-click="addsmile('😒')">😒</ion-col>
+          <ion-col width-10 ng-click="addsmile('😞')">😞</ion-col>
+          <ion-col width-10 ng-click="addsmile('😣')">😣</ion-col>
+          <ion-col width-10 ng-click="addsmile('😢')">😢</ion-col>
+          <ion-col width-10 ng-click="addsmile('😂')">😂</ion-col>
+          <ion-col width-10 ng-click="addsmile('😭')">😭</ion-col>
+          <ion-col width-10 ng-click="addsmile('😪')">😪</ion-col>
+          <ion-col width-10 ng-click="addsmile('😥')">😥</ion-col>
+          <ion-col width-10 ng-click="addsmile('😰')">😰</ion-col>
+          <ion-col width-10 ng-click="addsmile('😅')">😅</ion-col>
+          <ion-col width-10 ng-click="addsmile('😓')">😓</ion-col>
+          <ion-col width-10 ng-click="addsmile('😩')">😩</ion-col>
+          <ion-col width-10 ng-click="addsmile('😫')">😫</ion-col>
+          <ion-col width-10 ng-click="addsmile('😨')">😨</ion-col>
+          <ion-col width-10 ng-click="addsmile('😱')">😱</ion-col>
+          <ion-col width-10 ng-click="addsmile('😠')">😠</ion-col>
+          <ion-col width-10 ng-click="addsmile('😡')">😡</ion-col>
+          <ion-col width-10 ng-click="addsmile('😤')">😤</ion-col>
+          <ion-col width-10 ng-click="addsmile('😖')">😖</ion-col>
+          <ion-col width-10 ng-click="addsmile('😋')">😋</ion-col>
+          <ion-col width-10 ng-click="addsmile('😷')">😷</ion-col>
+          <ion-col width-10 ng-click="addsmile('😎')">😎</ion-col>
+          <ion-col width-10 ng-click="addsmile('😴')">😴</ion-col>
+          <ion-col width-10 ng-click="addsmile('😵')">😵</ion-col>
+          <ion-col width-10 ng-click="addsmile('😲')">😲</ion-col>
+          <ion-col width-10 ng-click="addsmile('😟')">😟</ion-col>
+          <ion-col width-10 ng-click="addsmile('😦')">😦</ion-col>
+          <ion-col width-10 ng-click="addsmile('😧')">😧</ion-col>
+          <ion-col width-10 ng-click="addsmile('😈')">😈</ion-col>
+          <ion-col width-10 ng-click="addsmile('👿')">👿</ion-col>
+          <ion-col width-10 ng-click="addsmile('😮')">😮</ion-col>
+          <ion-col width-10 ng-click="addsmile('😬')">😬</ion-col>
+          <ion-col width-10 ng-click="addsmile('😐')">😐</ion-col>
+          <ion-col width-10 ng-click="addsmile('😕')">😕</ion-col>
+          <ion-col width-10 ng-click="addsmile('😯')">😯</ion-col>
+          <ion-col width-10 ng-click="addsmile('😶')">😶</ion-col>
+          <ion-col width-10 ng-click="addsmile('😏')">😏</ion-col>
+          <ion-col width-10 ng-click="addsmile('😇')">😇</ion-col>
+          <ion-col width-10 ng-click="addsmile('😑')">😑</ion-col>
+          <ion-col width-10 ng-click="addsmile('👲')">👲</ion-col>
+          <ion-col width-10 ng-click="addsmile('👳')">👳</ion-col>
+          <ion-col width-10 ng-click="addsmile('👮')">👮</ion-col>
+          <ion-col width-10 ng-click="addsmile('👷')">👷</ion-col>
+          <ion-col width-10 ng-click="addsmile('💂')">💂</ion-col>
+          <ion-col width-10 ng-click="addsmile('👶')">👶</ion-col>
+          <ion-col width-10 ng-click="addsmile('👦')">👦</ion-col>
+          <ion-col width-10 ng-click="addsmile('👧')">👧</ion-col>
+          <ion-col width-10 ng-click="addsmile('👨')">👨</ion-col>
+          <ion-col width-10 ng-click="addsmile('👩')">👩</ion-col>
+          <ion-col width-10 ng-click="addsmile('👴')">👴</ion-col>
+          <ion-col width-10 ng-click="addsmile('👵')">👵</ion-col>
+          <ion-col width-10 ng-click="addsmile('👱')">👱</ion-col>
+          <ion-col width-10 ng-click="addsmile('👼')">👼</ion-col>
+          <ion-col width-10 ng-click="addsmile('👸')">👸</ion-col>
+          <ion-col width-10 ng-click="addsmile('😺')">😺</ion-col>
+          <ion-col width-10 ng-click="addsmile('😸')">😸</ion-col>
+          <ion-col width-10 ng-click="addsmile('😻')">😻</ion-col>
+          <ion-col width-10 ng-click="addsmile('😽')">😽</ion-col>
+          <ion-col width-10 ng-click="addsmile('😼')">😼</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙀')">🙀</ion-col>
+          <ion-col width-10 ng-click="addsmile('😿')">😿</ion-col>
+          <ion-col width-10 ng-click="addsmile('😹')">😹</ion-col>
+          <ion-col width-10 ng-click="addsmile('😾')">😾</ion-col>
+          <ion-col width-10 ng-click="addsmile('👹')">👹</ion-col>
+          <ion-col width-10 ng-click="addsmile('👺')">👺</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙈')">🙈</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙉')">🙉</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙊')">🙊</ion-col>
+          <ion-col width-10 ng-click="addsmile('💀')">💀</ion-col>
+          <ion-col width-10 ng-click="addsmile('👽')">👽</ion-col>
+          <ion-col width-10 ng-click="addsmile('💩')">💩</ion-col>
+          <ion-col width-10 ng-click="addsmile('🔥')">🔥</ion-col>
+          <ion-col width-10 ng-click="addsmile('✨')">✨</ion-col>
+          <ion-col width-10 ng-click="addsmile('🌟')">🌟</ion-col>
+          <ion-col width-10 ng-click="addsmile('💫')">💫</ion-col>
+          <ion-col width-10 ng-click="addsmile('💥')">💥</ion-col>
+          <ion-col width-10 ng-click="addsmile('💢')">💢</ion-col>
+          <ion-col width-10 ng-click="addsmile('💦')">💦</ion-col>
+          <ion-col width-10 ng-click="addsmile('💧')">💧</ion-col>
+          <ion-col width-10 ng-click="addsmile('👂')">👂</ion-col>
+          <ion-col width-10 ng-click="addsmile('👀')">👀</ion-col>
+          <ion-col width-10 ng-click="addsmile('👃')">👃</ion-col>
+          <ion-col width-10 ng-click="addsmile('👅')">👅</ion-col>
+          <ion-col width-10 ng-click="addsmile('👄')">👄</ion-col>
+          <ion-col width-10 ng-click="addsmile('👍')">👍</ion-col>
+          <ion-col width-10 ng-click="addsmile('👌')">👌</ion-col>
+          <ion-col width-10 ng-click="addsmile('👊')">👊</ion-col>
+          <ion-col width-10 ng-click="addsmile('✊')">✊</ion-col>
+          <ion-col width-10 ng-click="addsmile('👋')">👋</ion-col>
+          <ion-col width-10 ng-click="addsmile('✋')">✋</ion-col>
+          <ion-col width-10 ng-click="addsmile('👐')">👐</ion-col>
+          <ion-col width-10 ng-click="addsmile('👆')">👆</ion-col>
+          <ion-col width-10 ng-click="addsmile('👇')">👇</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙌')">🙌</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙏')">🙏</ion-col>
+          <ion-col width-10 ng-click="addsmile('☝️')">☝️</ion-col>
+          <ion-col width-10 ng-click="addsmile('👏')">👏</ion-col>
+          <ion-col width-10 ng-click="addsmile('🏃')">🏃</ion-col>
+          <ion-col width-10 ng-click="addsmile('💃')">💃</ion-col>
+          <ion-col width-10 ng-click="addsmile('👫')">👫</ion-col>
+          <ion-col width-10 ng-click="addsmile('👪')">👪</ion-col>
+          <ion-col width-10 ng-click="addsmile('👬')">👬</ion-col>
+          <ion-col width-10 ng-click="addsmile('👭')">👭</ion-col>
+          <ion-col width-10 ng-click="addsmile('💏')">💏</ion-col>
+          <ion-col width-10 ng-click="addsmile('💑')">💑</ion-col>
+          <ion-col width-10 ng-click="addsmile('👯')">👯</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙆')">🙆</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙅')">🙅</ion-col>
+          <ion-col width-10 ng-click="addsmile('💁')">💁</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙋')">🙋</ion-col>
+          <ion-col width-10 ng-click="addsmile('💆')">💆</ion-col>
+          <ion-col width-10 ng-click="addsmile('💇')">💇</ion-col>
+          <ion-col width-10 ng-click="addsmile('💅')">💅</ion-col>
+          <ion-col width-10 ng-click="addsmile('👰')">👰</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙎')">🙎</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙍')">🙍</ion-col>
+          <ion-col width-10 ng-click="addsmile('🙇')">🙇</ion-col>
+          <ion-col width-10 ng-click="addsmile('👎')">👎</ion-col>
+          <ion-col width-10 ng-click="addsmile('💪')">💪</ion-col>
+          <ion-col width-10 ng-click="addsmile('🚶')">🚶</ion-col>
+      </ion-row> -->
+
+<!-- </ion-toolbar> -->
+    

@@ -1,0 +1,33 @@
+<ion-navbar *navbar primary>
+    <ion-title></ion-title>
+</ion-navbar>
+<ion-content class="login">
+    <img src="img/icon.png" class="animated rubberBand">
+    <!-- <ion-icon name="happy" class="loginicon"></ion-icon> -->
+    <p><b>Welcome</b></p>
+    <p>Login To Continue !
+    </p>
+    <div class="login_inner login-form">
+        <ion-list class="login-list">
+            <ion-item>
+                <ion-label color="primary">Email</ion-label>
+                <ion-input type="email" [(ngModel)]="login.username"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary">Password</ion-label>
+                <ion-input type="password" [(ngModel)]="login.password"></ion-input>
+            </ion-item>
+           
+               
+           
+        </ion-list>
+     <button ion-button block color="danger" (click)="doLogin()">Login</button>
+        <button ion-button block color="blue" (click)="goToSignup()" class="signup-btn">Signup</button>
+    </div>
+    <div class="login-form-button">
+        
+    </div>
+    <div class="login_inner">
+        <img (click)="meetPage()" src="img/fb.png" class="animated bounceInLeft">
+    </div>
+</ion-content>

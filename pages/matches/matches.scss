@@ -1,0 +1,32 @@
+.matches
+{
+  background:$backgroundimage;
+}
+
+td-card {
+    position: absolute;
+    left: 50%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+    border: 7px solid rgba(0, 255, 75, 0.56);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.matches img
+{
+  width:100%;
+  border-radius: 10px;
+}
+
+.matches ion-grid
+{
+    text-align:center;
+}
+
+.matches ion-slides {
+    height: 70%;
+    }

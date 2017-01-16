@@ -1,0 +1,47 @@
+.chat
+{
+  background:$backgroundimage;
+}
+
+.chat ion-card
+{
+  background:transparent;
+}
+
+.chat ion-card ion-item
+{
+        background-color: rgba(0, 0, 0, 0.48);
+}
+
+.chat ion-card h2
+{
+    color:color($colors,primary);
+}
+
+.chat ion-card p
+{
+    color:color($colors,secondary);
+}
+
+.online
+{
+    position: absolute;
+    bottom: 8px;
+    left: 45px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.smiley
+{
+    height: 70px;
+    overflow: auto;
+}
+.smiley ion-col
+{
+    float: left !important;
+    text-align: center;
+    font-size: 22px;
+        padding-top: 0;
+    padding-bottom: 0;
+}

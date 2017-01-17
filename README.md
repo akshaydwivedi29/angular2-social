@@ -8,12 +8,17 @@ Screenshot
 A social community app based on angular2/ionic2.  Includes personal profile, viewing other uses profile, adding friends, messaging (in progress), etc.
 
 Tech Stack:
-> html5, css3,
-> angularjsv2
-> ionic2
-> cordova
+<ul>
+<li> html5, css3</li>
+<li> angularjsv2</li>
+<li>ionic2</li>
+<li>cordova</li>
+</ul>
+
 
 <label>Setup Instructions</label>
-> Install ionic CLI (use instuctions from ionic website)
-> in cloned project directory, run the following command (npm install)
-> use command (ionic serve) to preview in browser.
+<ul>
+<li> Install ionic CLI (use instuctions from ionic website)</li>
+<li> in cloned project directory, run the following command (npm install)</li>
+<li> use command (ionic serve) to preview in browser.</li>
+</ul>

@@ -1,0 +1,8 @@
+{
+  "name": "Muslimhud",
+  "app_id": "",
+  proxies: [{
+"path": "/api/",
+"proxyUrl": "http://demo.muslimhud.com/webservices/"
+}]
+}
